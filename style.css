@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Inter:wght@500&family=Teko:wght@300;700&display=swap");
+*{
+  margin:0;
+  padding:0;
+}
 body {
   background-color: #ffcd9e;
   /* background-image: url(dweep\ io\ 1.png);
@@ -36,7 +40,7 @@ p {
 form {
   display: inline-block;
   border-radius: 5px;
-  border-width: 10px;
+  border-width: 100px;
 }
 button {
   background-color: black;
@@ -50,6 +54,10 @@ footer {
     height:298px; */
   background-color: #282828;
   color: aliceblue;
+  width: 100vw;
+  
+  /* position:fixed; */
+  
   /* top: 592px; */
 }
 .foot {
@@ -66,13 +74,15 @@ footer {
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: right;
 }
 #bottom1 {
   display: inline-block;
 }
 #bottom2 {
   display: inline-block;
+  min-width: 1090px;
+  /* padding-right: 50px; */
 }
 #free {
   font-family: Inter;
@@ -101,7 +111,12 @@ footer {
   /* height: 575px; */
   padding: 0% 89.61px 0% 91.87px;
   flex-shrink: 0;
+  position: relative;
+  bottom: 20px;
 }
 ul {
   list-style: none;
+}
+#content{
+  height:582px;
 }
