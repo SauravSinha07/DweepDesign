@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Inter:wght@500&family=Teko:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Inter:wght@700&family=Teko:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Inter:wght@400&family=Teko:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Inter:wght@800&family=Teko:wght@300;700&display=swap");
 
 *{
   margin:0;
@@ -23,6 +25,7 @@ pre {
   font-family: "Dancing Script", cursive;
   font-family: "Inter", sans-serif;
   font-size: 20px;
+  font-weight:500;
   color:#484848;
   line-height: 32px;
   margin: 10px;
@@ -36,14 +39,16 @@ pre {
   text-align: left;
   margin:10px;
   padding-bottom:1.5%;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 form {
   display: inline-block;
   border-radius: 5px;
+  font-family: Inter;
+  font-weight: 500;
   margin:10px;
-  font-size: 20px;
+  font-size: 25px;
   height:100%;
   outline: 0px;
   border:0;
